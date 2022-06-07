@@ -24,30 +24,30 @@ Model the price of houses with the available independent variables. This model w
 - Ridge {'alpha': 100}
 - Lasso {'alpha': 0.001}
 - Base model features of significance determined using the values of coefficients sorted in descending sequence (ranked most important & below),
--- Features Ridge
--- GrLivArea 
--- 1stFlrSF  
--- TotalBsmtSF  
--- LotArea  
--- BsmtFinSF 
--- 2ndFlrSF  
--- GarageArea  
--- OverallQual_8  
--- OverallQual_9  
--- Features Lasso
--- GrLivArea  
--- TotalBsmtSF  
--- LotArea  
--- BsmtFinSF1  
--- OverallQual_9  
--- OverallQual_8  
--- GarageArea  
--- Neighborhood_Crawfor  
--- OverallCond_8  
--- OverallCond_7  
--- Exterior1st_BrkFace  
--- BsmtExposure_Gd  
--- OverallCond_9  
+- **Features Ridge**
+  - GrLivArea 
+  - 1stFlrSF  
+  - TotalBsmtSF  
+  - LotArea  
+  - BsmtFinSF 
+  - 2ndFlrSF  
+  - GarageArea  
+  - OverallQual_8  
+  - OverallQual_9  
+-   **Features Lasso**
+    - GrLivArea  
+    - TotalBsmtSF  
+    - LotArea  
+    - BsmtFinSF1  
+    - OverallQual_9  
+    - OverallQual_8  
+    - GarageArea  
+    - Neighborhood_Crawfor  
+    - OverallCond_8  
+    - OverallCond_7  
+    - Exterior1st_BrkFace  
+    - BsmtExposure_Gd  
+    - OverallCond_9  
 
 ## Technologies Used
 - Pandas
